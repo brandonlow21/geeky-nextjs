@@ -31,5 +31,6 @@
 }
 
 .right {
-  @apply right-auto;
+  justify-content: flex-end; 
+  display: flex;
 }
