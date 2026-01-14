@@ -20,7 +20,7 @@ const Home = ({
   // recent_posts,
   // categories,
   // promotion,
-  // currentPath = "/",
+  currentPath = "/",
 })  => {
   // define state
   // const sortPostByDate = sortByDate(posts);
