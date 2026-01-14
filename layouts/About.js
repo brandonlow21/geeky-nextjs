@@ -31,13 +31,13 @@ const About = ({ data }) => {
               // img: ImageFallback,
             }}
           />
-
+{/* 
           <a target="_self" rel="noopener noreferrer nofollow" 
           class="btn me-4 mb-4 btn-primary border-primary hover:text-white hover:no-underline"
           style="float: right;" 
           href="/CV.pdf" download="Brandon_CV">
               Download CV
-          </a>
+          </a> */}
 
         </div>
 
