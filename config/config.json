@@ -2,12 +2,12 @@
   "site": {
     "title": "Geeky Nextjs",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_white": "/images/logo-light.png",
-    "logo_width": "150",
-    "logo_height": "39",
-    "logo_text": "Geeky"
+    "favicon": "https://img.icons8.com/ios-filled/50/user.png",
+    "logo": "https://img.icons8.com/ios-filled/50/user.png",
+    "logo_white": "https://img.icons8.com/ios/50/user--v1.png",
+    "logo_width": "50",
+    "logo_height": "50",
+    "logo_text": "Brandon"
   },
   "settings": {
     "theme_switcher": true,

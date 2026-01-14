@@ -8,8 +8,8 @@ form_action: "#"
 layout: "contact"
 addresses:
   - icon: FaUserAlt
-    content: +211234565523
-    link: tel:+211234565523
+    content: +65 96899491
+    link: tel:96899491
   - icon: FaMapMarkerAlt
     content: info@email.com
     link: mailto:info@email.com
