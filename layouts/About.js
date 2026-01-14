@@ -31,13 +31,6 @@ const About = ({ data }) => {
               // img: ImageFallback,
             }}
           />
-{/* 
-          <a target="_self" rel="noopener noreferrer nofollow" 
-          class="btn me-4 mb-4 btn-primary border-primary hover:text-white hover:no-underline"
-          style="float: right;" 
-          href="/CV.pdf" download="Brandon_CV">
-              Download CV
-          </a> */}
 
         </div>
 
@@ -74,6 +67,7 @@ const About = ({ data }) => {
           </div>
         </div>
       </div>
+      <button href="/CV.pdf" type="solid" download="Brandon_CV" style="justify-content: flex-end; display: flex;"> Download CV </button>
     </section>
   );
 };
