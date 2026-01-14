@@ -10,17 +10,17 @@ const About = ({ data }) => {
   return (
     <section className="section mt-16">
       <div className="container text-center">
-        {image && (
+        {/* {image && (
           <div className="mb-8">
-            {/* <ImageFallback
+            <ImageFallback
               src={image}
               width={1298}
               height={616}
               alt={title}
               className="rounded-lg"
-            /> */}
+            />
           </div>
-        )}
+        )}  */}
         {markdownify(title, "h1", "h1 text-left lg:text-[55px] mt-12")}
 
         <div className="content text-left">
@@ -32,11 +32,12 @@ const About = ({ data }) => {
             }}
           />
 
-           <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800" style="position: fixed; bottom: 10%; right: 5%;">
-            <span class="relative px-5 py-2.5 transition-all ease-in duration-125 bg-white dark:bg-gray-900 rounded-md group-hover:bg-transparent group-hover:dark:bg-transparent">
-              <a href="/CV.pdf" download="Brandon_CV">Download</a>
-            </span>
-          </button>
+          <a target="_self" rel="noopener noreferrer nofollow" 
+          class="btn me-4 mb-4 btn-primary border-primary hover:text-white hover:no-underline"
+          style="float: right;" 
+          href="/CV.pdf" download="Brandon_CV">
+              Download CV
+          </a>
 
         </div>
 
