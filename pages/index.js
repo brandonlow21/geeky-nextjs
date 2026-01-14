@@ -15,19 +15,19 @@ const { blog_folder, pagination } = config.settings;
 
 const Home = ({
   banner,
-  posts,
-  featured_posts,
-  recent_posts,
-  categories,
-  promotion,
-  currentPath = "/",
-}) => {
+  // posts,
+  // featured_posts,
+  // recent_posts,
+  // categories,
+  // promotion,
+  // currentPath = "/",
+})  => {
   // define state
-  const sortPostByDate = sortByDate(posts);
-  const featuredPosts = sortPostByDate.filter(
-    (post) => post.frontmatter.featured
-  );
-  const showPosts = pagination;
+  // const sortPostByDate = sortByDate(posts);
+  // const featuredPosts = sortPostByDate.filter(
+  //   (post) => post.frontmatter.featured
+  // );
+  // const showPosts = pagination;
 
   return (
     <Base currentPath={currentPath}>
@@ -75,13 +75,13 @@ const Home = ({
           </div>
         </div>
       </section>
-
-      {/* Home main */}
-      <section className="section">
+      
+ 
+     {/* <section className="section">
         <div className="container">
           <div className="row items-start">
             <div className="mb-12 lg:mb-0 lg:col-8">
-              {/* Featured posts */}
+             
               {featured_posts.enable && (
                 <div className="section">
                   {markdownify(featured_posts.title, "h2", "section-title")}
@@ -132,7 +132,7 @@ const Home = ({
                 </div>
               )}
 
-              {/* Promotion */}
+       
               {promotion.enable && (
                 <Link onClick={(e) => {
                   e.preventDefault();
@@ -147,7 +147,7 @@ const Home = ({
                 </Link>
               )}
 
-              {/* Recent Posts */}
+           
               {recent_posts.enable && (
                 <div className="section pt-0">
                   {markdownify(recent_posts.title, "h2", "section-title")}
@@ -168,7 +168,7 @@ const Home = ({
                 currentPage={1}
               />
             </div>
-            {/* sidebar */}
+         
             <Sidebar
               className={"lg:mt-[9.5rem]"}
               posts={posts}
@@ -176,7 +176,8 @@ const Home = ({
             />
           </div>
         </div>
-      </section>
+      </section> */}
+       
     </Base>
   );
 };
@@ -204,12 +205,12 @@ export const getStaticProps = async () => {
   return {
     props: {
       banner: banner,
-      posts: posts,
-      featured_posts,
-      recent_posts,
-      promotion,
-      categories: categoriesWithPostsCount,
-      currentPath: "/",
+      // posts: posts,
+      // featured_posts,
+      // recent_posts,
+      // promotion,
+      // categories: categoriesWithPostsCount,
+      // currentPath: "/",
     },
   };
 };
