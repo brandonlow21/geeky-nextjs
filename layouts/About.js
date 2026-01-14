@@ -41,7 +41,7 @@ const About = ({ data }) => {
                 {education.degrees.map((degree, index) => (
                   <div className="mb-7 md:col-6" key={"degree-" + index}>
                     <h4 className="text-base lg:text-[25px]">
-                      {degree.university}
+                      {degree.school}
                     </h4>
                     <p className="mt-2">{degree.content}</p>
                   </div>

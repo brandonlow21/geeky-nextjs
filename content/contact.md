@@ -1,7 +1,7 @@
 ---
-title: "Let’s, Talk </br> About You"
+title: "Let’s, Talk !"
 description: "meta description"
-phone: "+211234565523"
+phone: "+65 96899491"
 mail: "info@email.com"
 location: "9567 Turner Trace Apt. BC C3G8A4"
 form_action: "#"

@@ -6,21 +6,21 @@ layout: about
 education:
   title: Formal Education
   degrees:
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Northeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Easteast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    - university: "Southeast University"
-      content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"  
+    - School: "Nanyang Polytechnic"
+      content: "2020 - 2023 • Diploma in Information Technology (C85)"
+    # - university: "Northeast University"
+    #   content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
+    # - university: "Easteast University"
+    #   content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
+    # - university: "Southeast University"
+    #   content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"  
 
 experience:
   title: Work Experience
   list:
-    - Best Writer Award
-    - Best New Newel
-    - Best Book
+    - DIS - MIE System Operator
+    - GSA - IT Intern/Support
+    - A&W - Cashier/ Kitchen Staff
     - Best Article
     - Best New Newel
     - Best New Newel
