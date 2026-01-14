@@ -31,5 +31,8 @@
 }
 
 .bottomright {
-  @apply position-absolute right-10 bottom-10;
+ position: absolute; 
+ right: 0; 
+ bottom: 0;
+  
 }
