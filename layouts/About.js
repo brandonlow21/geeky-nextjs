@@ -10,17 +10,17 @@ const About = ({ data }) => {
   return (
     <section className="section mt-16">
       <div className="container text-center">
-        {/* {image && (
+        {image && (
           <div className="mb-8">
-            <ImageFallback
+            {/* <ImageFallback
               src={image}
               width={1298}
               height={616}
               alt={title}
               className="rounded-lg"
-            />
+            /> */}
           </div>
-        )} */}
+        )}
         {markdownify(title, "h1", "h1 text-left lg:text-[55px] mt-12")}
 
         <div className="content text-left">
