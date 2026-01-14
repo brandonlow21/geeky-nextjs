@@ -72,7 +72,7 @@ const About = ({ data }) => {
        {CV.button.enable && (
        <Link
           className="btn btn-primary mt-6"
-          style="justify-content: flex-end; display: flex;"
+          // style="justify-content: flex-end; display: flex;"
           href={CV.button.link}
           rel={CV.button.rel}
         >
