@@ -29,3 +29,7 @@
     }
   }
 }
+
+.bottomright {
+  @apply position-absolute right-10 bottom-10;
+}
