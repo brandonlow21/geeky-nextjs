@@ -32,3 +32,4 @@ experience:
 ---
 
 Welcome to my portfolio. I am thrilled you’ve come to visit my showcase of work that I’ve compiled over the years, which includes a combination of collaborations, commissioned work and personal projects. Take a look and feel free to get in touch if you’d like to discuss potential opportunities to work together.
+<Button href="/CV.pdf" type="solid" download="Brandon_CV" style="float: right;"> Download CV </Button>
