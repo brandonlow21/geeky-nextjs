@@ -22,7 +22,8 @@ experience:
     - GSA - IT Intern/Support
     - A&W - Cashier/ Kitchen Staff
 
-button:
+CV:
+  button:
     enable: true
     label: Download CV
     link: /CV.pdf

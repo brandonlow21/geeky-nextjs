@@ -2,10 +2,12 @@ import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
 import ImageFallback from "./components/ImageFallback";
+import Link from "next/link";
+
 
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
-  const { title, image, education, experience, button } = frontmatter;
+  const { title, image, education, experience, CV } = frontmatter;
 
   return (
     <section className="section mt-16">
@@ -67,14 +69,14 @@ const About = ({ data }) => {
           </div>
         </div>
       </div>
-       {button.enable && (
+       {CV.button.enable && (
        <Link
           className="btn btn-primary mt-6"
           style="justify-content: flex-end; display: flex;"
-          href={button.link}
-          rel={button.rel}
+          href={CV.button.link}
+          rel={CV.button.rel}
         >
-          {button.label}
+          {CV.button.label}
         </Link>
         )}                  
     </section>
