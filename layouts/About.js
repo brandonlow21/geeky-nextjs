@@ -70,11 +70,10 @@ const About = ({ data }) => {
         </div>
       </div>
        {CV.button.enable && (
-       <Link
+        <Link
           className="btn btn-primary mt-6 right"
           href={CV.button.link}
-          rel={CV.button.rel}
-        >
+          rel={CV.button.rel}>
           {CV.button.label}
         </Link>
         )}                  

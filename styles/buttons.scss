@@ -31,6 +31,5 @@
 }
 
 .right {
- position: absolute; 
- right: 10;   
+  @apply right-10;
 }
