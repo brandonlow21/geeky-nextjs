@@ -21,13 +21,12 @@ experience:
     - DIS - MIE System Operator
     - GSA - IT Intern/Support
     - A&W - Cashier/ Kitchen Staff
-    - Best Article
-    - Best New Newel
-    - Best New Newel
-    - Best Book
-    - Best Article
-    - Best New Newel
-    - Best Book
+
+button:
+    enable: true
+    label: Download CV
+    link: /CV.pdf
+    rel: ""
 
 ---
 

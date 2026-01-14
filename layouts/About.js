@@ -31,7 +31,7 @@ const About = ({ data }) => {
               // img: ImageFallback,
             }}
           />
-
+        
         </div>
 
         <div className="row mt-24 text-left lg:flex-nowrap">
@@ -67,7 +67,16 @@ const About = ({ data }) => {
           </div>
         </div>
       </div>
-      <button href="/CV.pdf" type="solid" download="Brandon_CV" style="justify-content: flex-end; display: flex;"> Download CV </button>
+       {button.enable && (
+       <Link
+          className="btn btn-primary mt-6"
+          style="justify-content: flex-end; display: flex;"
+          href={button.link}
+          rel={button.rel}
+        >
+          {button.label}
+        </Link>
+        )}                  
     </section>
   );
 };
