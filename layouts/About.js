@@ -5,7 +5,7 @@ import ImageFallback from "./components/ImageFallback";
 
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
-  const { title, image, education, experience } = frontmatter;
+  const { title, image, education, experience, button } = frontmatter;
 
   return (
     <section className="section mt-16">
