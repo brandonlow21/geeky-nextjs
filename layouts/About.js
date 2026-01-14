@@ -28,7 +28,7 @@ const About = ({ data }) => {
             {...mdxContent}
             components={{
               ...shortcodes,
-              img: ImageFallback,
+              // img: ImageFallback,
             }}
           />
 
