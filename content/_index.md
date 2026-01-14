@@ -1,10 +1,10 @@
 ---
 banner:
   title: Welcome **!**
-  title_small: "to John Bravo's Blog"
-  content: Are Developer and recently started your own business Already made website to ensure presence wants to develop.
+  title_small: "to Brandon's Portfolio"
+  content: I am Brandon Low. I am IT Graduate, currently working in DIS as Military Intelligence Expert (MIE)
   image_enable: true
-  image: /images/banner-author.png
+  image: /images/banner.jpg
   button:
     enable: true
     label: Know About Me
