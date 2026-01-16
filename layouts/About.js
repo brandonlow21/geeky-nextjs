@@ -11,29 +11,15 @@ const About = ({ data }) => {
   return (
     <section className="section mt-16">
       <div className="container text-center">
-        {/* {image && (
-          <div className="mb-8">
-            <ImageFallback
-              src={image}
-              width={1298}
-              height={616}
-              alt={title}
-              className="rounded-lg"
-            />
-          </div>
-        )}  */}
         {markdownify(title, "h1", "h1 text-left lg:text-[55px] mt-12")}
-
         <div className="content text-left">
           <MDXRemote
             {...mdxContent}
             components={{
               ...shortcodes,
               // img: ImageFallback,
-            }}
-          />
+            }}/>
         </div>
-
         <div className="row mt-24 text-left lg:flex-nowrap">
           <div className="lg:col-6 ">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
@@ -68,7 +54,7 @@ const About = ({ data }) => {
       </div>    
       {CV.button.enable && (
         <Link
-          className="btn btn-primary mt-6 absolute right-10 bottom-10"
+          className="btn btn-primary absolute right-10 bottom-10"
           href={CV.button.link}
           rel={CV.button.rel}>
             {CV.button.label}
