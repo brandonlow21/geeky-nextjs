@@ -57,8 +57,7 @@ const About = ({ data }) => {
                 {experience?.list?.map((item, index) => (
                   <li
                     className="mb-5 text-lg font-bold text-dark dark:text-darkmode-light lg:col-6"
-                    key={"experience-" + index}
-                  >
+                    key={"experience-" + index}  >
                     {item}
                   </li>
                 ))}
@@ -66,16 +65,16 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
-      </div>                
+      </div>    
+      {CV.button.enable && (
+        <Link
+          className="btn btn-primary mt-6 absolute right-10 bottom-10"
+          href={CV.button.link}
+          rel={CV.button.rel}>
+            {CV.button.label}
+        </Link>
+      )}            
     </section>
-    {CV.button.enable && (
-      <Link
-        className="btn btn-primary mt-6 absolute right-10 bottom-10"
-        href={CV.button.link}
-        rel={CV.button.rel}>
-        {CV.button.label}
-      </Link>
-    )}
   );
 };
 
