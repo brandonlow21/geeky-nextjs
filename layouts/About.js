@@ -76,7 +76,7 @@ const About = ({ data }) => {
           rel={CV.button.rel}>
           {CV.button.label}
         </Link>
-        )}                  
+      )}                  
     </section>
   );
 };
