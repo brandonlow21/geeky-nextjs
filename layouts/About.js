@@ -8,7 +8,6 @@ import Link from "next/link";
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
   const { title, image, education, experience, CV } = frontmatter;
-
   return (
     <section className="section mt-16">
       <div className="container text-center">
@@ -33,7 +32,6 @@ const About = ({ data }) => {
               // img: ImageFallback,
             }}
           />
-        
         </div>
 
         <div className="row mt-24 text-left lg:flex-nowrap">
@@ -68,14 +66,14 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
-      </div>
-       {CV.button.enable && (
-        <Link
-          className="btn btn-primary mt-6 relative right-10 bottom-10"
-          href={CV.button.link}
-          rel={CV.button.rel}>
-          {CV.button.label}
+        {CV.button.enable && (
+          <Link
+            className="btn btn-primary mt-6 absolute right-10 bottom-10"
+            href={CV.button.link}
+            rel={CV.button.rel}>
+            {CV.button.label}
         </Link>
+      </div>
       )}                  
     </section>
   );
