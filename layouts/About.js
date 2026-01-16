@@ -72,7 +72,7 @@ const About = ({ data }) => {
             href={CV.button.link}
             rel={CV.button.rel}>
             {CV.button.label}
-        </Link>
+          </Link>
       </div>
       )}                  
     </section>
