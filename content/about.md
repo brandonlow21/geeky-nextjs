@@ -20,13 +20,17 @@ experience:
   title: Work Experience
   job:
     - company: "Digital Intelligence Service"
-      content: "October 2023 - Present • MIE System Operator"
-    - company: "GSA Pte Ltd"
-      content: "May - October 2022 • It Support/Intern"
+      position: "MIE System Operator"
+      content: "October 2023 - Present"
+    - company: "GSA Pte Ltd • "
+      position: "IT Support/Intern"
+      content: "May - October 2022"
     - company: "A&W"
-      content: "December 2019 – November 2020 • Cashier/Kitchen Staff"
-# experience:
-#   title: Work Experience
+      position: "Cashier/Kitchen Staff"
+      content: "December 2019 – November 2020"
+
+# skills:
+#   title: Skills
 #   list:
 #     - DIS - MIE System Operator
 #     - GSA - IT Intern/Support
