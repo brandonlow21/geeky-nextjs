@@ -56,7 +56,7 @@ const About = ({ data }) => {
           </div>
         </div>
         
-          <div className="lg:col-6">
+          <div className="bulletpoints mt-10 lg:mt-0 lg:col-6 text-left">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(skills.title, "h2", "section-title mb-12")}
               <ul className="row">
