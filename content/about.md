@@ -18,7 +18,7 @@ education:
 
 experience:
   title: Work Experience
-  jobs:
+  job:
     - company: "Digital Intelligence Service"
       content: "October 2023 - Present • MIE System Operator"
     - company: "GSA Pte Ltd"
