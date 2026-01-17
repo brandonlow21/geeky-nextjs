@@ -3,10 +3,11 @@ title: About Me
 # image: /images/author.png
 description: "meta description"
 layout: about
+
 education:
   title: Formal Education
-  degrees:
-    - School: "Nanyang Polytechnic"
+  certification:
+    - school: "Nanyang Polytechnic"
       content: "2020 - 2023 • Diploma in Information Technology (C85)"
     # - university: "Northeast University"
     #   content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
@@ -17,10 +18,19 @@ education:
 
 experience:
   title: Work Experience
-  list:
-    - DIS - MIE System Operator
-    - GSA - IT Intern/Support
-    - A&W - Cashier/ Kitchen Staff
+  jobs:
+    - company: "Digital Intelligence Service"
+      content: "October 2023 - Present • MIE System Operator"
+    - company: "GSA Pte Ltd"
+      content: "May - October 2022 • It Support/Intern"
+    - company: "A&W"
+      content: "December 2019 – November 2020 • Cashier/Kitchen Staff"
+# experience:
+#   title: Work Experience
+#   list:
+#     - DIS - MIE System Operator
+#     - GSA - IT Intern/Support
+#     - A&W - Cashier/ Kitchen Staff
 
 CV:
   button:

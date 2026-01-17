@@ -25,18 +25,33 @@ const About = ({ data }) => {
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(education.title, "h2", "section-title mb-12")}
               <div className="row">
-                {education.degrees.map((degree, index) => (
-                  <div className="mb-7 md:col-6" key={"degree-" + index}>
+                {education.certification.map((certification, index) => (
+                  <div className="mb-7 md:col-6" key={"certification-" + index}>
                     <h4 className="text-base lg:text-[25px]">
-                      {degree.school}
+                      {certification.school}
                     </h4>
-                    <p className="mt-2">{degree.content}</p>
+                    <p className="mt-2">{certification.content}</p>
                   </div>
                 ))}
               </div>
             </div>
           </div>
-          <div className="experience mt-10 lg:mt-0 lg:col-6">
+          <div className="lg:col-6 ">
+            <div className="rounded border border-border p-6 dark:border-darkmode-border ">
+              {markdownify(experience.title, "h2", "section-title mb-12")}
+              <div className="row">
+                {education.certification.map((job, index) => (
+                  <div className="mb-7 md:col-6" key={"job-" + index}>
+                    <h4 className="text-base lg:text-[25px]">
+                      {job.company}
+                    </h4>
+                    <p className="mt-2">{job.content}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          {/* <div className="experience mt-10 lg:mt-0 lg:col-6">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(experience.title, "h2", "section-title mb-12")}
               <ul className="row">
@@ -49,7 +64,7 @@ const About = ({ data }) => {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         {CV.button.enable && (
         <Link
