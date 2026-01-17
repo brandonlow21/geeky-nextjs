@@ -36,7 +36,7 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
-          <div className="lg:col-6 ">
+          <div className="experience mt-10 lg:mt-0 lg:col-6 ">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(experience.title, "h2", "section-title mb-12")}
               <div className="row">
