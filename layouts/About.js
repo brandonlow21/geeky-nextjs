@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const About = ({ data }) => {
   const { frontmatter, mdxContent } = data;
-  const { title, image, education, experience, CV } = frontmatter;
+  const { title, image, education, experience, CV, skills } = frontmatter;
   return (
     <section className="section mt-16">
       <div className="container text-center">
@@ -54,7 +54,7 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
-          <div className="skills mt-10 lg:mt-0 lg:col-6">
+          <div className="lg:col-6">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(skills.title, "h2", "section-title mb-12")}
               <ul className="row">
