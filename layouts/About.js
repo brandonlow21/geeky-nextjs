@@ -20,7 +20,7 @@ const About = ({ data }) => {
               // img: ImageFallback,
             }}/>
         </div>
-        <div className="row mt-24 text-left lg:flex-nowrap">
+        <div className="row mt-24 text-left lg:flex-wrap">
           <div className="lg:col-6 ">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(education.title, "h2", "section-title mb-12")}
@@ -55,7 +55,7 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
-        <div className="row mt-24 text-left lg:flex-nowrap">
+        
           <div className="lg:col-6">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(skills.title, "h2", "section-title mb-12")}
@@ -73,7 +73,7 @@ const About = ({ data }) => {
            {/* <div className="lg:col-6">
 
            </div> */}
-        </div>
+ 
         {CV.button.enable && (
         <Link
           className="btn btn-primary mt-6 btn-right"
