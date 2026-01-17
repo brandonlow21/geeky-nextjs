@@ -54,7 +54,7 @@ const About = ({ data }) => {
       </div>    
       {CV.button.enable && (
         <Link
-          className="btn btn-primary absolute right-10 bottom-10"
+          className="btn btn-primary bottom-right"
           href={CV.button.link}
           rel={CV.button.rel}>
             {CV.button.label}
