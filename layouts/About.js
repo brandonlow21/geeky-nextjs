@@ -74,8 +74,10 @@ const About = ({ data }) => {
 
         {/* <div className="lg:col-6">
 
-        </div> */}
- 
+          </div> */}
+
+        </div>
+
         {CV.button.enable && (
         <Link
           className="btn btn-primary mt-6 btn-right"
@@ -84,6 +86,7 @@ const About = ({ data }) => {
             {CV.button.label}
         </Link>
       )}   
+      
       </div>       
     </section>
   );
