@@ -40,7 +40,7 @@ const About = ({ data }) => {
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(experience.title, "h2", "section-title mb-12")}
               <div className="row">
-                {education.certification.map((job, index) => (
+                {experience.job.map((job, index) => (
                   <div className="mb-7 md:col-6" key={"job-" + index}>
                     <h4 className="text-base lg:text-[25px]">
                       {job.company}
