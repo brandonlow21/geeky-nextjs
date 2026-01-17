@@ -29,12 +29,18 @@ experience:
       position: "Cashier/Kitchen Staff"
       content: "December 2019 – November 2020"
 
-# skills:
-#   title: Skills
-#   list:
-#     - DIS - MIE System Operator
-#     - GSA - IT Intern/Support
-#     - A&W - Cashier/ Kitchen Staff
+skills:
+  title: Skills
+  list:
+    - HTML, CSS/Bootstrap, JavaScript
+    - Python, Flask
+    - SQL
+    - Node.js
+    - C#, ASP.NET Core
+    - Kotlin
+    - AWS Cloud Computing
+    - AI Machine Learning (TensorFlow, scikit-learn, etc)
+    - Data Analytics (Tableau, MS PowerBI)
 
 CV:
   button:

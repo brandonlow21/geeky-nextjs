@@ -42,10 +42,10 @@ const About = ({ data }) => {
               <div className="row">
                 {experience.job.map((job, index) => (
                   <div className="mb-7 md:col-6" key={"job-" + index}>
-                    <h4 className="text-base lg:text-[25px]">
+                    <h4 className="text-base lg:text-[16px]">
                       {job.company}
                     </h4>
-                    <h6 className="text-base lg:text-[25px]">
+                    <h6 className="text-base lg:text-[16px]">
                       {job.position}
                     </h6>
                     <p className="mt-2">{job.content}</p>
@@ -54,7 +54,7 @@ const About = ({ data }) => {
               </div>
             </div>
           </div>
-          {/* <div className="skills mt-10 lg:mt-0 lg:col-6">
+          <div className="skills mt-10 lg:mt-0 lg:col-6">
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(skills.title, "h2", "section-title mb-12")}
               <ul className="row">
@@ -67,7 +67,7 @@ const About = ({ data }) => {
                 ))}
               </ul>
             </div>
-          </div> */}
+          </div>
         </div>
         {CV.button.enable && (
         <Link
