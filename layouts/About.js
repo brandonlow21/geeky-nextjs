@@ -51,15 +51,15 @@ const About = ({ data }) => {
             </div>
           </div>
         </div>
-      </div>    
-      {CV.button.enable && (
+        {CV.button.enable && (
         <Link
-          className="btn btn-primary bottom-right"
+          className="btn btn-primary mt-6 btn-right"
           href={CV.button.link}
           rel={CV.button.rel}>
             {CV.button.label}
         </Link>
-      )}            
+      )}   
+      </div>       
     </section>
   );
 };
