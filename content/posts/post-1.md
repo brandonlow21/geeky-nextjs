@@ -1,25 +1,20 @@
 ---
-title: "How to make toys from old Olarpaper"
-date: 2022-04-04T01:00:00Z
+title: "Monster Battle game"
+date: 2026-01-08T18:00:00Z
 image: /images/post/post-1.png
-categories: ["programming"]
+categories: ["Python"]
 featured: true
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+How to Play :
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Each game consists of 3 rounds, and the requirements of the game are as follow:
 
-## Covid-19 Situation
+• The game starts with 10 points for each player. The player can choose to use a minimum of 1 point or up to the amount of points that he has. For example, if the player is left with 2 points, he cannot use 3 points to play the next game. Otherwise, the program displays ''You do not have enough points!”.
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+• For each round of the game, the player will enter 0 for fire monster, 1 for grass monster or 2 for water monster.  If he enters an invalid option, he will lose that round automatically.
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+• At the end of the 3 rounds, the outcome of the game must be displayed. If the player wins the game, he will be awarded the points he used to play, but if he loses, the same amount of points will be deducted. If the game ends with a draw, the points remain unchanged. The game will stop if the player has no more points left, or when he enters -1 to quit.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-![alter-text](/images/post/post-1.png)
-*Example Caption*
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+<iframe src="https://trinket.io/embed/python3/5bed5b59a00d" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
