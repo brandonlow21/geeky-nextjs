@@ -1,7 +1,7 @@
 import { markdownify } from "@lib/utils/textConverter";
 import shortcodes from "@shortcodes/all";
 import { MDXRemote } from "next-mdx-remote";
-import ImageFallback from "./components/ImageFallback";
+// import ImageFallback from "./components/ImageFallback";
 import Link from "next/link";
 
 

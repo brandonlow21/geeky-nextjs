@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="section relative mt-12 pt-[70px] pb-[50px]">
       <ImageFallback
         className="-z-[1] absolute min-h-full inset-0 block object-cover object-left  md:object-top"
-        src="/images/public/images/banner-bg-shape.svg"
+        src="/images/public/images/bg-shape.svg"
         alt="footer background"
         fill={true}
       />
