@@ -13,13 +13,17 @@
       "url": "/contact"
     },
     {
-      "name": "Pages",
-      "url": "",
+      "name": "Post",
+      "url": "/ posts"
+    },
+    {
+      "name": "Categories",
+      "url": "/categories",
       "hasChildren": true,
       "children": [
         {
-          "name": "Categories",
-          "url": "/categories"
+          "name": "Python",
+          "url": "/python"
         }
       ]
     }

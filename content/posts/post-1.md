@@ -17,4 +17,11 @@ Each game consists of 3 rounds, and the requirements of the game are as follow:
 
 • At the end of the 3 rounds, the outcome of the game must be displayed. If the player wins the game, he will be awarded the points he used to play, but if he loses, the same amount of points will be deducted. If the game ends with a draw, the points remain unchanged. The game will stop if the player has no more points left, or when he enters -1 to quit.
 
-<iframe src="https://trinket.io/embed/python3/5bed5b59a00d" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python3/5bed5b59a00d" 
+width="100%" 
+height="356" 
+frameborder="0" 
+marginwidth="0" 
+marginheight="0" 
+allowfullscreen>
+</iframe>
