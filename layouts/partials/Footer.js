@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="section relative mt-12 pt-[70px] pb-[50px]">
       <ImageFallback
-        className="-z-[1] absolute min-h-full inset-0 block object-cover object-left  md:object-to w-full"
+        className="-z-[1] absolute min-h-full inset-0 block object-cover object-left md:object-to w-full"
         src="/images/footer-bg-shape.svg"
         alt="footer background"
         fill={true}
@@ -32,9 +32,9 @@ const Footer = () => {
             <li className="inline-block" key={menu.name}>
               <Link
                 href={`${menu.url}/`}
-                onClick={(e) => {
-                  e.preventDefault();
-                }}
+                // onClick={(e) => {
+                //   e.preventDefault();
+                // }}
                 className="p-2 font-bold text-dark hover:text-primary dark:text-darkmode-light lg:p-4"
               >
                 {menu.name}
