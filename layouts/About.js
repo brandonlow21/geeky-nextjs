@@ -20,10 +20,10 @@ const About = ({ data }) => {
               // img: ImageFallback,
             }}/>
         </div>
-        <div className="row mt-24 text-left lg:flex-wrap">
+        <div className="row mt-20 text-left lg:flex-wrap">
 
           <div className="lg:col-6 ">
-            // Formal Education
+
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(education.title, "h2", "section-title mb-12")}
               <div className="row">
@@ -37,7 +37,7 @@ const About = ({ data }) => {
                 ))}
               </div>
             </div>
-            // Skills
+
             <div className="rounded border border-border p-6 dark:border-darkmode-border mt-6">
               {markdownify(skills.title, "h2", "section-title mb-12")}
               <ul className="row">
@@ -54,7 +54,7 @@ const About = ({ data }) => {
           </div>
 
           <div className="lg:col-6 ">
-            // Work Experience
+
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(experience.title, "h2", "section-title mb-12")}
               <div className="row">
