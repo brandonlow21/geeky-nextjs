@@ -3,8 +3,8 @@ banner:
   title: Welcome **!**
   title_small: "to Brandon's Portfolio"
   content: I am Brandon Low. I am IT Graduate, currently working in DIS as Military Intelligence Expert (MIE)
-  # image_enable: true
-  # image: /images/banner.jpg
+  image_enable: true
+  image: /images/banner.png
   button:
     enable: true
     label: Know About Me
