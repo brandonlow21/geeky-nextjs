@@ -21,8 +21,40 @@ const About = ({ data }) => {
             }}/>
         </div>
         <div className="row mt-24 text-left lg:flex-wrap">
-          
+
           <div className="lg:col-6 ">
+            // Formal Education
+            <div className="rounded border border-border p-6 dark:border-darkmode-border ">
+              {markdownify(education.title, "h2", "section-title mb-12")}
+              <div className="row">
+                {education.certification.map((certification, index) => (
+                  <div className="mb-7 md:col-6" key={"certification-" + index}>
+                    <h4 className="text-base lg:text-[25px]">
+                      {certification.school}
+                    </h4>
+                    <p className="mt-2">{certification.content}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            // Skills
+            <div className="rounded border border-border p-6 dark:border-darkmode-border mt-6">
+              {markdownify(skills.title, "h2", "section-title mb-12")}
+              <ul className="row">
+                {skills?.list?.map((item, index) => (
+                  <li
+                    className="mb-5 text-lg font-bold text-dark dark:text-darkmode-light lg:col-6"
+                    key={"skills-" + index}  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+          </div>
+
+          <div className="lg:col-6 ">
+            // Work Experience
             <div className="rounded border border-border p-6 dark:border-darkmode-border ">
               {markdownify(experience.title, "h2", "section-title mb-12")}
               <div className="row">
@@ -41,35 +73,8 @@ const About = ({ data }) => {
             </div>
           </div>
 
-          <div className="lg:col-6 ">
-            <div className="rounded border border-border p-6 dark:border-darkmode-border ">
-              {markdownify(education.title, "h2", "section-title mb-12")}
-              <div className="row">
-                {education.certification.map((certification, index) => (
-                  <div className="mb-7 md:col-6" key={"certification-" + index}>
-                    <h4 className="text-base lg:text-[25px]">
-                      {certification.school}
-                    </h4>
-                    <p className="mt-2">{certification.content}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        
           <div className="bulletpoints lg:col-6 text-left">
-            <div className="rounded border border-border p-6 dark:border-darkmode-border ">
-              {markdownify(skills.title, "h2", "section-title mb-12")}
-              <ul className="row">
-                {skills?.list?.map((item, index) => (
-                  <li
-                    className="mb-5 text-lg font-bold text-dark dark:text-darkmode-light lg:col-6"
-                    key={"skills-" + index}  >
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
+            
           </div>
 
         {/* <div className="lg:col-6">
