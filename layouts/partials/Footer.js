@@ -31,7 +31,7 @@ const Footer = () => {
           {menu.footer.map((menu) => (
             <li className="inline-block" key={menu.name}>
               <Link
-                href={`${menu.url}/#!`}
+                href={`${menu.url}/`}
                 onClick={(e) => {
                   e.preventDefault();
                 }}
