@@ -14,7 +14,7 @@
     },
     {
       "name": "Post",
-      "url": "/ posts"
+      "url": "/posts"
     },
     {
       "name": "Categories",
@@ -23,7 +23,7 @@
       "children": [
         {
           "name": "Python",
-          "url": "/python"
+          "url": "/categories/python"
         }
       ]
     }
