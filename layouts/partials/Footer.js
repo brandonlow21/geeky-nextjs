@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <footer className="section relative mt-12 pt-[70px] pb-[50px]">
       <ImageFallback
-        className="absolute bottom-0 left-0 z-[-1] w-full"
+        className="-z-[1] absolute min-h-full inset-0 block object-cover object-left  md:object-to w-full"
         src="/images/footer-bg-shape.svg"
         alt="footer background"
         fill={true}

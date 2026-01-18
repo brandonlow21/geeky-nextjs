@@ -4,7 +4,7 @@
   "version": "1.0.5",
   "private": true,
   "license": "UNLICENSED",
-  "homepage": "https://themewagon.github.io/geeky-nextjs",
+  "homepage": "https://brandonlow21.github.io/geeky-nextjs/",
   "scripts": {
     "dev": "node lib/jsonGenerator.js && next dev",
     "build": "node lib/jsonGenerator.js && next build",
