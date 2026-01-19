@@ -24,7 +24,7 @@ const Sidebar = ({ posts, categories, className }) => {
 
   return (
     <aside className={`${className} px-0 lg:px-6 lg:col-4`}>
-      {about.enable && (
+      {/* {about.enable && (
         <div className="relative rounded border border-border p-6 text-center dark:border-darkmode-border">
           <ImageFallback
             className="-z-[1]"
@@ -39,7 +39,7 @@ const Sidebar = ({ posts, categories, className }) => {
             source={social}
           />
         </div>
-      )}
+      )} */}
 
       {/* categories widget */}
       {categories.enable && (
@@ -182,7 +182,7 @@ const Sidebar = ({ posts, categories, className }) => {
       )}
 
       {/* newsletter */}
-      {newsletter.enable && (
+      {/* {newsletter.enable && (
         <div className="mt-6  rounded border border-border p-6 text-center dark:border-darkmode-border">
           <h4 className="section-title">{newsletter.title}</h4>
           <p className="mt-10 text-xs">{newsletter.content}</p>
@@ -209,7 +209,7 @@ const Sidebar = ({ posts, categories, className }) => {
             </Link>
           </p>
         </div>
-      )}
+      )} */}
     </aside>
   );
 };
