@@ -23,7 +23,11 @@
       "children": [
         {
           "name": "Python",
-          "url": "/categories/python"
+          "url": "/categories/Python"
+        },
+        {
+          "name": "C#",
+          "url": "/categories/C#"
         }
       ]
     }

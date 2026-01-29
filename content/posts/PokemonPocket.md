@@ -2,7 +2,7 @@
 title: Pokemon Pocket
 date: 2022-04-04T02:00:00Z
 image: /images/post/pokemonpocket.jpg
-categories: ["c#"]
+categories: ["C#"]
 featured: true
 draft: false
 ---
