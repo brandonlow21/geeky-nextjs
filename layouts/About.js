@@ -38,7 +38,7 @@ const About = ({ data }) => {
               </div>
             </div>
 
-            <div className="rounded border border-border p-6 dark:border-darkmode-border mt-6">
+            <div className="bulletpoints rounded border border-border p-6 dark:border-darkmode-border mt-6">
               {markdownify(skills.title, "h2", "section-title mb-12")}
               <ul className="row">
                 {skills?.list?.map((item, index) => (

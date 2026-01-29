@@ -8,13 +8,7 @@ education:
   title: Formal Education
   certification:
     - school: "Nanyang Polytechnic"
-      content: "2020 - 2023 • Diploma in Information Technology (C85)"
-    # - university: "Northeast University"
-    #   content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    # - university: "Easteast University"
-    #   content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"
-    # - university: "Southeast University"
-    #   content: "1985 • 1991 • gravida nibh velvelit auctor alimo quet menean solli"  
+      content: "2020 - 2023 • Diploma in Information Technology (C85)" 
 
 experience:
   title: Work Experience
