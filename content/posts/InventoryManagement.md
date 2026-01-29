@@ -1,7 +1,7 @@
 ---
 title: Inventory Management
 date: 2022-04-02T03:00:00+00:00
-# image: /images/post/post-3.png
+# image: /images/post/post.png
 categories: ["Python"]
 featured: true
 draft: false

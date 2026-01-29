@@ -1,7 +1,7 @@
 ---
 title: "Post"
 date: 2022-04-04T15:00:00Z
-image: /images/post/post-8.png
+image: /images/post/post.png
 categories: ["unknown", "Unknown"]
 featured: false
 draft: false
