@@ -1,7 +1,7 @@
 ---
 title: "Monster Battle game"
 date: 2026-01-08T18:00:00Z
-image: /images/post/post-1.png
+image: /images/post/monsterbattle.jpg
 categories: ["Python"]
 featured: true
 draft: false
